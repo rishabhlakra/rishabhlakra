@@ -1,27 +1,27 @@
 # Rishabh Lakra
 
-Full-stack product engineer based in Bremen, Germany.
+Software engineer based in Bremen, Germany. I work mainly on full-stack products and applied AI.
 
-I work across React, TypeScript, Python, FastAPI, SQL, and PostgreSQL. My strongest recent work combines product engineering with search and applied AI: explainable retrieval, evidence-grounded application material, and systems that preserve decisions and outcomes.
+My usual stack is React and TypeScript on the frontend, with Python, FastAPI, SQL, and PostgreSQL behind it. Recent work has focused on search, semantic retrieval, data ingestion, and application workflows.
 
-## Selected engineering
+## Current projects
 
 ### [Career OS](https://github.com/rishabhlakra/career-os-engineering)
 
-A private career workspace for ranking opportunities, explaining fit, preparing evidence-grounded application material, and learning from outcomes.
+A private product I use to rank software jobs, inspect fit, prepare application material from verified profile facts, and track results.
 
-- Next.js and React product with a Python/FastAPI service boundary.
-- Multilingual e5 retrieval with separate seniority, language, and evidence context.
-- Supabase authentication and PostgreSQL row-level security for user state.
-- Public architecture, infrastructure, schemas, evaluation artifacts, and automated evidence checks.
+- Eight ATS adapters normalized 1,943 jobs from 527 companies in the published snapshot.
+- Multilingual e5 retrieval is combined with separate seniority and language checks.
+- A SQLite-to-PostgreSQL migration moved 12,669 rows and included two-user isolation tests.
+- The linked repository is a public case study; the product source and personal data remain private.
 
 [Architecture](https://github.com/rishabhlakra/career-os-engineering/blob/main/docs/architecture.md) · [Infrastructure](https://github.com/rishabhlakra/career-os-engineering/blob/main/docs/infrastructure.md) · [Evaluation](https://github.com/rishabhlakra/career-os-engineering/blob/main/artifacts/evaluation/pack-ready-scorecard.json)
 
 ### [Luxury Briefing](https://github.com/rishabhlakra/luxury-briefing)
 
-A full-stack signal-review application built with React, TypeScript, FastAPI, SQLAlchemy, PostgreSQL, RSS ingestion, and Docker Compose. It turns a noisy set of market sources into searchable briefings, a saved-signal vault, and curated event watch windows.
+A full-stack signal-review application built with React, TypeScript, FastAPI, SQLAlchemy, PostgreSQL, RSS ingestion, and Docker Compose. It turns market feeds into searchable briefings, a saved-signal vault, and a calendar of relevant events.
 
-The repository includes the complete source, local stack, API surface, deterministic enrichment logic, and CI checks.
+The full source, local stack, API routes, scoring logic, and CI checks are public.
 
 ## Working with
 
@@ -31,7 +31,7 @@ The repository includes the complete source, local stack, API surface, determini
 
 **Applied AI:** embeddings, semantic retrieval, evidence grounding, evaluation harnesses
 
-**Delivery:** Docker, GitHub Actions, Vercel, Railway
+**Tools:** Docker, GitHub Actions, Git, Linux
 
 I am focused on full-stack software and applied-AI product roles in Bremen and the surrounding region.
 
